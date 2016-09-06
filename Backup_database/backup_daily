@@ -1,0 +1,5 @@
+ sudo su
+crontab -e
+
+00 01 * * * /bin/bash /home/username/scripts/mongo_backup.sh
+
